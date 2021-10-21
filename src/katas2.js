@@ -59,6 +59,5 @@ function fibonacci(num) {
     }
     return resultado
 }
-console.log(fibonacci(5))
 // descomente a linha seguinte para testar sua função
 // console.assert(fibonacci(8) === 13, 'A função fibonacci não está funcionando como esperado');
