@@ -51,7 +51,7 @@ function fibonacci(num) {
     let num1 = 0
     let num2 = 1
     let resultado = 0
-    for(let contador = 1;contador <= num+1; contador++ ) {
+    for(let contador = 1;contador < num; contador++ ) {
         console.log(num1)
         resultado = add(num1,num2)
         num1 = num2
@@ -59,5 +59,6 @@ function fibonacci(num) {
     }
     return resultado
 }
+console.log(fibonacci(10))
 // descomente a linha seguinte para testar sua função
 // console.assert(fibonacci(8) === 13, 'A função fibonacci não está funcionando como esperado');
